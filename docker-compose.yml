@@ -1,7 +1,6 @@
-version: '3.1'
 services:
   springboot:
-    image: mylandmarktech/maven-web-app:VERSION
+    image: mylandmarktech/maven-web-app:latest
     restart: always
     ports:
     - 9090:8080
